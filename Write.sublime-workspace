@@ -1,0 +1,602 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gg",
+				"ggsave"
+			],
+			[
+				"MO",
+				"MODISTools"
+			],
+			[
+				"pack",
+				"packages"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"martin",
+				"martinjung_NOSPAM_zoho"
+			],
+			[
+				"it",
+				"textit{}	\\textit{}"
+			],
+			[
+				"subs",
+				"subsection{}	\\subsection{}"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Manuscript/main.tex",
+			"settings":
+			{
+				"buffer_size": 4778,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeX-Plus/support/LaTex-Plus.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeX-Plus/support/LaTex-Plus.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeX-Plus/support/LaTex-Plus.sublime-build",
+					"Force"
+				],
+				[
+					"Packages/LaTeX-Plus/support/LaTex-Plus.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/LaTeX-Plus/support/LaTex-Plus.sublime-build",
+					"Clean (Force)"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeX-Plus/support/LaTex-Plus.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 272.0,
+		"last_filter": "pack ins",
+		"selected_items":
+		[
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime r",
+				"SublimeREPL: R"
+			],
+			[
+				"rep",
+				"SublimeREPL: Python"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Permute Lines: Shuffle"
+			],
+			[
+				"pac",
+				"Package Control: Remove Channel"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pacla",
+				"Package Control: Install Package"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"python",
+			"jekyll",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/martin/Projekte/Paper_SpatialDataManagement",
+		"/home/martin/Projekte/Paper_SpatialDataManagement/Data",
+		"/home/martin/Projekte/Paper_SpatialDataManagement/Manuscript"
+	],
+	"file_history":
+	[
+		"/home/martin/Documents/Studium/PhD/RS_acquisition/MODIS/getMODISTilename.R",
+		"/home/martin/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/martin/Downloads/src/CMakeLists.txt",
+		"/home/martin/Downloads/src/shapelib/README.txt",
+		"/home/martin/Documents/Studium/PhD/RS_acquisition/README.MD",
+		"/home/martin/Documents/Studium/PhD/RS_acquisition/Landsat/Landsat_WELD.py",
+		"/home/martin/Documents/Studium/Kopenhagen/Masters/Analysis_PREDICTS/GIS_Loading.R",
+		"/home/martin/Documents/Studium/PhD/RS_acquisition/MODIS/getMODISTile.R",
+		"/home/martin/Documents/Studium/PhD/RS_acquisition/.git/config",
+		"/home/martin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/SublimePeek/Default (Linux).sublime-keymap",
+		"/home/martin/.config/sublime-text-3/Packages/SublimePeek/help-compiler/R-help.r",
+		"/home/martin/.config/sublime-text-3/Packages/SublimePeek/SublimePeek.sublime-settings",
+		"/home/martin/Projekte/Jacob_Fungi/merge.py",
+		"/home/martin/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/martin/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings",
+		"/home/martin/Documents/Studium/PhD/LandsatCloudMasking/readme.txt",
+		"/home/martin/Documents/Studium/PhD/LandsatCloudMasking/cfmask/src/cfmask_user_guide.txt",
+		"/home/martin/Documents/Programmierung/QSDM/algorithms/sklearn_SupportVectorMachines.py",
+		"/home/martin/Documents/Programmierung/QSDM/qsdm_main.py",
+		"/home/martin/Documents/Studium/PhD/LandsatCloudMasking/cfmask/src/CFMASK-LICENSE.txt",
+		"/home/martin/Documents/Programmierung/QSDM/QSDM.sublime-project",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/_includes/consulting.html",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/_includes/css/grayscale.css",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/_includes/contact.html",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/_config.yml",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/_layouts/default.html",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/persp.r",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/_includes/about.html",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/_includes/nav.html",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/_includes/header.html",
+		"/home/martin/Documents/Persönliches/Martin-Jung.github.io/_includes/head.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/contact.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/nav.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/head.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/css/font-awesome/less/tiles.less",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/about.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/blog.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/js/getFeed.js",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/cv.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_layouts/default.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/header.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/js.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/download.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/js/MailProtection.js",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_config.yml",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/_includes/css/bootstrap.min.css",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/css/font-awesome/css/font-awesome.css",
+		"/home/martin/Dokumente/Persönliches/OldJekyll/_includes/head.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/mail/contact_me.php",
+		"/home/martin/Dokumente/Persönliches/OldJekyll/_config.yml",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/css/font-awesome/css/font-awesome.min.css",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/index.html",
+		"/home/martin/Dokumente/Persönliches/Martin-Jung.github.io/feed.xml",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/classicthesis-config.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Acknowledgments.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Titleback.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Titlepage.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter0B.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter05.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Publication.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Contents.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Bibliography.bib",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter04.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Abstract.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/classicthesis.sty",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Declaration.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter0A.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Chapters/Chapter0B.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Appendix.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter01.tex",
+		"/home/martin/.config/sublime-text-3/Packages/User/LaTeX-Plus.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeX-Plus/LaTeX-Plus.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeX-Plus/README.md",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeX-Plus/support/Default (Linux).sublime-keymap",
+		"/home/martin/.config/sublime-text-3/Packages/ConvertToUTF8/ConvertToUTF8.sublime-settings",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/consbiol.bst",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/ClassicThesis.bbl",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeXTools/Default (Linux).sublime-keymap",
+		"/home/martin/Projekte/BIOFRAG/SqlQueries/BIOFRAG_DatabaseSetup.sql",
+		"/home/martin/.qgis2/python/plugins/LecoS/landscape_statistics.py",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Bibliography.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/FrontBackmatter/Colophon.aux",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/ClassicThesis.fdb_latexmk",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/classicthesis-config.aux",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Chapters/Chapter01.fls",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/ClassicThesis.log",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/ClassicThesis.tcp",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Arbeit_tex/main.tex",
+		"/home/martin/Dokumente/Studium/Kopenhagen/Masters/000Thesis_writeup/WriteUpLatex/Arbeit_tex/thesis-vorlage/Diplomarbeit/Diplomarbeit.tex",
+		"/home/martin/Dokumente/Persönliches/CV-Vorlage/mjung_cv.tex",
+		"/home/martin/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/martin/.config/sublime-text-3/Packages/LaTeXTools/README.markdown",
+		"/home/martin/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/martin/.qgis2/python/plugins/LecoS/landscape_polygonoverlay.py",
+		"/home/martin/.qgis2/python/plugins/LecoS/lecos_dlg.py",
+		"/home/martin/Projekte/BIOFRAG/Demo.Rmd",
+		"/home/martin/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/martin/Projekte/BIOFRAG/TeamViewInfos.txt",
+		"/home/martin/Projekte/BIOFRAG/SqlQueries/GisDataSchema.sql",
+		"/home/martin/Projekte/BIOFRAG/SqlQueries/ExportRasterFile.sh",
+		"/usr/share/qgis/python/plugins/processing/algs/qgis/FixedDistanceBuffer.py",
+		"/home/martin/Projekte/Jacob_Fungi/random.R",
+		"/home/martin/.qgis2/python/plugins/QSDM/qsdm_provider.py",
+		"/home/martin/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			")\n",
+			"sensing",
+			"library",
+			"all",
+			" =",
+			")\n",
+			"dates",
+			"rt",
+			"gu",
+			"da",
+			"hier",
+			"a",
+			"test",
+			"test\na\nhier\nda\nfir\ngu\nrt",
+			"fir",
+			"hier",
+			"a",
+			"test",
+			"brand",
+			"col-lg-12",
+			"stack",
+			"stackoverflow",
+			"float",
+			"  ",
+			"brooks",
+			"urlfont",
+			"color",
+			"\\}",
+			"doi\\",
+			"\\deg",
+			"url",
+			"empty",
+			"chapter",
+			"url",
+			"\\cite",
+			"% ",
+			" ",
+			"\\",
+			"ucs",
+			"biblio",
+			"math",
+			"ğ",
+			"draft",
+			"versio",
+			"bera",
+			"berom",
+			"text",
+			");\n",
+			"text",
+			",\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\citep",
+			"}",
+			"\\doi",
+			"\\citep",
+			"{\\u g}"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Manuscript/main.tex",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/LaTeX-Plus/syntax/LaTeX Extended.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 109.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Write.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Studium/Kopenhagen/Masters/Analysis_PREDICTS/GIS_Loading.R"
+			],
+			[
+				"a",
+				"_includes/about.html"
+			],
+			[
+				"c",
+				"classicthesis.sty"
+			],
+			[
+				"b",
+				"Bibliography.bib"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Studium/PhD/RS_acquisition/Acquisition.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
