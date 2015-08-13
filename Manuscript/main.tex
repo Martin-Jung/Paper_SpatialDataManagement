@@ -1,11 +1,10 @@
 \documentclass[fleqn,10pt]{wlpeerj}
-\title{Open source solutions for storing large spatial-temporal geographic datasets}
+\title{Overview and comparison of open source solutions for storing spatial-temporal numerical arrays}
 
 \author[1]{Martin Jung}
-\affil[1]{Center for Macroecology and Evolution University of Copenhagen Universitetsparken 15 DK-2100 Copenhagen}
-\affil[1]{Address now: }
+\affil[1]{Current address:  School of Life Sciences, University of Sussex, Brighton BN1 9QG, UK.  }
 
-\keywords{Keyword1, Keyword2, Keyword3}
+\keywords{Spatial-temporal, GIS, database, raster analysis}
 
 \begin{abstract}
 Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text.
@@ -19,22 +18,33 @@ Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract te
 
 \section*{Introduction}
 
-Your introduction goes here! Some examples of commonly used commands and features are listed below, to help you get started.
+Intention. Relevance of remote-sensing data to ecology, conservation, food security
 
-If you have a question, please use the support box in the bottom right of the screen to get in touch. When your article or pre-print is complete, use the "Submit to PeerJ" button in the topbar to send your files to PeerJ.
+example with multispectral landsat data.
 
-\subsection*{About PeerJ}
+same machine, different ways
 
-PeerJ is an award-winning open access publisher covering the biological and medical sciences.  PeerJ provides authors with two publication venues: PeerJ (a peer-reviewed academic journal) and PeerJ PrePrints (a 'pre-print server'). See https://peerj.com/about/publications/ for more information.
+zodb, postgres, rasdaman
+scidb,rasterlite
+rds files, hdf and netcdf files
+folder
+postgres pointcloud extension
+https://github.com/pgpointcloud/pointcloud
 
 
 Difficulties is that spatial-temporal data has 4 dimensions
 
 make figure of different ways for storage (time-voxel, simple table)
 
+Although propertiary solutions for storing spatial-temporal raster dataset exists such as ... - we will focus explicitly on solutions that are freely available, reproducible and might find application in small to medium size research settings.
+
+We will also focus on comparably small settings such for small-medium scientific or business settings, recognizing that larger solutions for clusters  might exist \citep{Winslett}
 
 In this paper current methods and their individual shortcoming and merits of storing spatial-temporal raster images with open-source products is discussed. 
 Furthermore we will test and evaluate the individual methods in the light of speed, storage efficiency and ease of management.
+
+We identify four main purposes of establishing a database system - which are management, storage, query and subset
+modularity (as expansion of data and functions) and 
 
 
 \section*{Some \LaTeX{} Examples}
@@ -42,13 +52,28 @@ Furthermore we will test and evaluate the individual methods in the light of spe
 
 Use section and subsection commands to organize your document. \LaTeX{} handles all the formatting and numbering automatically. Use ref and label commands for cross-references.
 
+because hardware speed is relative and subject to computational power we will make the comparison as being relative to a simple on-disk storage of files. 
+Obviously some RIO speeds might also change depending on improvements in code
+
+Idea: Store only change of pixels in a temporal fashion. Baseline complete, then only change
+Likely only practiable for classifed rasters
+Define temporal resolution in advance, then write association if change happened
+maybe store the change in a formula
+
+comparison between database types
+
+
 \subsection*{Figures and Tables}
+
 
 Use the table and tabular commands for basic tables --- see Table~\ref{tab:widgets}, for example. You can upload a figure (JPEG, PNG or PDF) using the project menu. To include it in your document, use the includegraphics command as in the code for Figure~\ref{fig:view} below.
 
+spatiallite only stores numbers, but not date types
+
+
 \begin{figure}[ht]
 \centering
-\includegraphics[width=\linewidth]{view}
+%\includegraphics[width=\linewidth]{view}
 \caption{An example image.}
 \label{fig:view}
 \end{figure}
@@ -148,8 +173,8 @@ Reference to Figure \ref{fig:results}.
 
 \section*{Acknowledgments}
 
-So long and thanks for all the fish.
 
-\bibliography{sample}
+
+\bibliography{bib}
 
 \end{document}

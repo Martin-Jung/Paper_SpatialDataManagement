@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\bibitem[Cary et~al., 2009]{Winslett}
+Cary, A., Sun, Z., Hristidis, V., and Rishe, N. (2009).
+\newblock Experiences on processing spatial data with mapreduce.
+\newblock In Winslett, M., editor, {\em Scientific and Statistical Database
+  Management}, volume 5566 of {\em Lecture Notes in Computer Science}, pages
+  302--319. Springer Berlin Heidelberg.
+
 \bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
 Figueredo, A.~J. and Wolf, P. S.~A. (2009).
 \newblock Assortative pairing and life history strategy - a cross-cultural
